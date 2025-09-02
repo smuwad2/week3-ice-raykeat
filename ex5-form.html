@@ -12,20 +12,49 @@
 <body>
     <div class="container mt-5">
         <form>
-            <div class="row g-3">
-                <div>
+            <div class="row g-3 justify-content-center">
+                <!-- Name -->
+                <!--<div>
                     <label for="fullName">Full Name</label>
                     <input type="text" id="fullName">
+                </div>-->
+
+                <div class="mb-3 col-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
                 </div>
 
                 <!-- Email -->
-                <div>
+                <!--<div>
                     <label for="email">Email address</label>
                     <input type="email" id="email">
+                </div>-->
+
+                <div class="mb-3 col-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="text" class="form-control" id="email" aria-describedby="emailHelp">
                 </div>
 
+
+                <div class="col-4" id="gender">
+                    <label for="gender" class="form-label d-block">Gender</label>
+                    <div class="form-check d-inline-block me-3">
+                        <input class="form-check-input" type="radio" name="gender" id="male">
+                        <label class="form-check-label" for="male">
+                            male
+                        </label>
+                    </div>
+                    <div class="form-check d-inline-block">
+                        <input class="form-check-input" type="radio" name="gender" id="female">
+                        <label class="form-check-label" for="female">
+                            female
+                        </label>
+                    </div>
+                </div>
+
+            
                 <!-- Gender -->
-                <div>
+                <!--<div>
                     <label>Gender</label>
                     <div>
                         <input type="radio" name="gender" id="male" value="male">
@@ -35,7 +64,8 @@
                         <input type="radio" name="gender" id="female" value="female">
                         <label for="female">Female</label>
                     </div>
-                </div>
+                </div>-->
+
 
                 <!-- Country -->
                 <div>

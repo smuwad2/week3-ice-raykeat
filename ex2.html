@@ -14,12 +14,44 @@
             background-color: goldenrod;
             border:1px solid black;
         }
+
+        /*body{
+            background-color: grey;
+        }*/
+
+        .row {
+            margin-bottom: 20px; /* or any value */
+        }
     </style>
 </head>
 
 <body>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <div class="container-fluid bg-secondary">
+
+        <div class="row justify-content-center">
+            <div class="col-sm-3 box">1 of 2</div>
+            <div class="col-sm-3 box">2 of 2</div>
+        </div>
+
+
+        <div class="row justify-content-center">
+            <div class="col-md box"> 1 of 3 </div>
+            <div class="col-md-6 box"> 2 of 3 (wider) </div>
+            <div class="col-md box"> 3 of 3</div> 	
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg box"> 1 of 4 </div>
+            <div class="col-lg-4 box"> 2 of 4 (wider) </div>
+            <div class="col-lg-4 box"> 3 of 4 (wider) </div>
+            <div class="col-lg box"> 4 of 4</div> 	
+        </div>
+
+
+    </div>
 
     
 </body>
